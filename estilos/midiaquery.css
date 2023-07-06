@@ -1,0 +1,51 @@
+/* Media Query para Desktop */
+@media (min-width: 992px) 
+{  body {
+    background-image: url(../imagens/tela3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+        }
+section#login {
+    background-image: url(../imagens/PEQUENA.png);
+    background-position:left,bottom;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 900px;
+}
+section#login > div#imagem {
+    float: right;
+    width: 50%;
+    height: 100%;
+    }  
+section#login > div#formulario {
+    float: left;
+    width: 50%;
+    }
+div#formulario > p {
+    margin: 20px 0px;
+    font-size: 1.2em;
+}
+div#formulario > h1 {
+    font-size: 2em;
+}
+}
+
+/* Media Query para Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+body {
+background-color: blueviolet;
+}
+section#login {
+    width: 80vw;
+    height: 280px;
+}
+section#login > div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+section#login > div#formulario {
+    float: right;
+    width: 70%;
+}
+}
